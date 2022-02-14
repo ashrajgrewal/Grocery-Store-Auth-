@@ -16,6 +16,7 @@ class SignUpForm(FlaskForm):
         if user:
             raise ValidationError(
                 "That username is taken. Please choose a different one."
+                # Need to fix this.
             )
 
 
